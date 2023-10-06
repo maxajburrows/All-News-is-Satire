@@ -14,4 +14,9 @@ public class TestController : Controller
     {
         return "You hit the second endpoint Max, maybe you're not completely stupid.";
     }
+
+    public string FirstText()
+    {
+        return "It's a crazy world out there man; sometimes it just feels like...... ALL NEWS IS SATIRE";
+    }
 }
