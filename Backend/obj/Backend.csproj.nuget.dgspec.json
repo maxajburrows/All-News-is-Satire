@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maxaj\\OneDrive\\Desktop\\All News is Satire\\backend\\Backend.csproj": {}
+    "C:\\Users\\maxaj\\OneDrive\\Desktop\\All News is Satire\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maxaj\\OneDrive\\Desktop\\All News is Satire\\backend\\Backend.csproj": {
+    "C:\\Users\\maxaj\\OneDrive\\Desktop\\All News is Satire\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxaj\\OneDrive\\Desktop\\All News is Satire\\backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\maxaj\\OneDrive\\Desktop\\All News is Satire\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\maxaj\\OneDrive\\Desktop\\All News is Satire\\backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\maxaj\\OneDrive\\Desktop\\All News is Satire\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\maxaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maxaj\\OneDrive\\Desktop\\All News is Satire\\backend\\obj\\",
+        "outputPath": "C:\\Users\\maxaj\\OneDrive\\Desktop\\All News is Satire\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maxaj\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
