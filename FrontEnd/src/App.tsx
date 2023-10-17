@@ -8,7 +8,7 @@ function App() {
   const [deliveryText, setDeliveryText] = useState<string>("");
 
   const hitTestEndpoint = async() => {
-    const text: string[] = (await axios.get("https://localhost:7036/Test/FirstText")).data;
+    const text: string[] = (await axios.get("http://localhost:5157/Test/FirstText")).data;
     setBuildUpText(text[0]);
     setDeliveryText(text[1]);
   }
